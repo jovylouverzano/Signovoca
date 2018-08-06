@@ -20,5 +20,4 @@ A demo of the app can be found on YouTube: http://youtu.be/PF6hY-0VuN4
 
 Project page: http://eaglesky.github.io/2015/12/26/HandGestureRecognition/ 
 
-If you find any problem about the code, **feel free to create an issue to report it**. Also feel free to refactor the code and send pull requests to me. It would be great if we could improve this project together!
 
