@@ -1,28 +1,10 @@
 # Hand Gesture Recognition App
 
-Yalun Qin (allenchin1990@gmail.com)
-
-03/24/2014
-
-## Acknowledgments:
-
-1. The idea of presampling is from Simen Andresen's [blog](http://simena86.github.io/blog/2013/08/12/hand-tracking-and-recognition-with-opencv/) 
-2. Used LibSVM on Android implemented by Kun Li. [link](https://github.com/cnbuff410/Libsvm-androidjni)
-3. Used [aFileChooser library](https://github.com/iPaulPro/aFileChooser) to implement the file chooser.
-4. To implement mapping human gestures to Android apps, [this article](http://blog.csdn.net/qinjuning/article/details/6867806) is quite helpful.
-
-**This is the new Android Studio project! If you miss the old Eclipse ADT project, check out the other branch "eclipse_adt_old"**
-
-**@raquezha also made great efforts in making the original project work with Android Studio. Check out his project https://github.com/raquezha/HandGestureApp too. Thanks for his work!** 
 
 ## Installation:
-
-1. Before importing the project into Android Studio (mine is the 1.5 version), make sure you have already installed and configured related tools, including Android SDK, Android NDK. In this project Android 4.4.2 and OpenCV 2.4.9 are used. **I have already imported the OpenCV for Android Library and its native code so you don't have to download or import it yourself ^_^**. 
-You can download and install NDK from "Project Structure" -> "SDK Location" -> "Download Android NDK", or download from the website(http://developer.android.com/ndk/downloads/index.html) and follow the instructions to install(make sure you fill in the NDK path in "Project Structure"/"SDK Location"/"Android NDK location"). Then **be sure to follow this post (http://kn-gloryo.github.io/Build_NDK_AndroidStudio_detail/, [video](https://www.youtube.com/watch?v=RmPuwdxR1qs)) to configure NDK tools**. This will make your life with NDK much easier! 
-
-2. Import the project into Android Studio. Build the jni libraries libHandGestureApp.so and libsignal.so by right click on app/sr c/main/jni and choose NDK -> ndk build. This will call the ndk build tool and generate those two jni libraries in app/src/main/libs. This must be done if you change the c++ source files in the jni folder. 
-
-3. Make sure OpenCV Manager has been installed on your Android phone and then build and run the project!
+1. Install Open CV manager into your phone from Playstore.
+2. Open the project (not import)
+3. Install if there are missing dependancies needed.
 
 ## Usage:
 
